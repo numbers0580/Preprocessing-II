@@ -163,6 +163,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+form {
+  font-size: 1.4rem;
+}
 .container {
   max-width: 800px;
   width: 100%;
@@ -345,4 +348,24 @@ header div {
     font-size: 2rem;
     color: white;
   }
+}
+.home .theForm .userInfo {
+  background: #C0C0C0;
+  display: none;
+}
+.home .theForm .userInfo .questionContainer {
+  display: flex;
+  padding: 1%;
+}
+.home .theForm .userInfo .questionContainer .question {
+  min-width: 32%;
+}
+.home .theForm .userInfo textarea {
+  width: 240px;
+  height: 80px;
+}
+.home .theForm .userInfo .buttonContainer {
+  padding: 2% 10%;
+  display: flex;
+  justify-content: space-between;
 }
