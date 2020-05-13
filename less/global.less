@@ -39,8 +39,16 @@ img {
   height: auto;
 }
 
+form {
+  font-size: 1.4rem;
+}
+
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+
+  @media @mobile {
+    max-width: 90%;;
+  }
 }
